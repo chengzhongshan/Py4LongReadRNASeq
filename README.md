@@ -383,7 +383,8 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
 - Running both pipelines in parallel enables comparison and validation of results, highlighting concordance as well as novel isoform discoveries.
 
 <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET.png" alt="Scatter plot" width="400"/>
-<img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET-isoform.png" alt="Scatter plot" width="400"/>
+<img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/blob/main/output/scatter_with_stats-PacBio_TAGET-isoform.png" alt="Scatter plot" width="400"/>
+
 ---
 
 ## Notes
