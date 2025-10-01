@@ -1,15 +1,15 @@
 # PacBio Iso-Seq and TAGET Analysis Pipeline
 
-This repository documents the steps for running a long-read RNA-Seq analysis pipeline integrating **PacBio Iso-Seq**, **IsoQuant**, and our modified **TAGET** workflow. The pipeline enables isoform-level and gene-level quantification, followed by differential expression (DE) analysis with DESeq2.
-
-Authors:
+**Authors:**
 Zhongshan Cheng1, Jia-Hua “George” Qu2, Nick Peterson3, Meghan Carr4
 
-Affiliations:
+**Affiliations:**
 1. Center for Applied Bioinformatics, St. Jude Children’s Research Hospital
 2. Host-Microbe Interactions, St. Jude Children’s Research Hospital
 3. Host-Microbe Interactions, St. Jude Graduate School (Ph.D. track)
 4. Student, CodeCrew Coding School
+
+This repository documents the steps for running a long-read RNA-Seq analysis pipeline integrating **PacBio Iso-Seq**, **IsoQuant**, and our modified **TAGET** workflow. The pipeline enables isoform-level and gene-level quantification, followed by differential expression (DE) analysis with DESeq2.
 
 ---
 
