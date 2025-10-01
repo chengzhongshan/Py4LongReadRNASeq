@@ -396,4 +396,5 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
 - [IsoQuant GitHub](https://github.com/ablab/IsoQuant)
 - [PacBio Iso-Seq Documentation](https://github.com/PacificBiosciences/IsoSeq)
 - [St. Jude PacBio WDL Tutorial](https://github.com/RhettRautsaw/StJude_PacBio-WDL-tutorial)
+- [TAGET](https://github.com/gx-health/TAGET?tab=readme-ov-file)
 
