@@ -398,6 +398,11 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
   <img src="output/scatter_with_stats-PacBio_TAGET-isoform.png" alt="Isoform scatter plot" width="400"/>
 </div>
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="output/volcano-PacBio.png" alt="Scatter plot" width="400"/>
+  <img src="output/volcano-TAGET.png" alt="Isoform scatter plot" width="400"/>
+</div>
+
 ---
 
 ## Notes
