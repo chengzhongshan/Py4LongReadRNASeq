@@ -384,6 +384,8 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
 
 ![Scatter plot](https://github.com/chengzhongshan/Py4LongReadRNASeq/blob/main/output/scatter_with_stats-PacBio_TAGET.png)
 
+<img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET.png" alt="Scatter plot" width="400"/>
+
 ---
 
 ## Notes
