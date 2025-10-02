@@ -391,7 +391,7 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
 - Top isoforms and genes can be extracted for downstream biological interpretation.
 - Running both pipelines in parallel enables comparison and validation of results, highlighting concordance as well as novel isoform discoveries.
 
-<img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/SBDS_isoform.jpg" alt="Scatter plot" width="800"/>
+<img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/CALU_isoform.jpg" alt="Scatter plot" width="800"/>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET.png" alt="Scatter plot" width="400"/>
