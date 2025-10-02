@@ -394,7 +394,7 @@ Performed with **DESeq2** (via `Trinity` Singularity image). Below are the detai
 <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/SBDS_isoform.jpg" alt="Scatter plot" width="800"/>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET.jpg" alt="Scatter plot" width="400"/>
+  <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET.png" alt="Scatter plot" width="400"/>
   <img src="https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/main/output/scatter_with_stats-PacBio_TAGET-isoform.png" alt="Isoform scatter plot" width="400"/>
 </div>
 
