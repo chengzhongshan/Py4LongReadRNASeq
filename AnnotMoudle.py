@@ -1,5 +1,6 @@
 """
-Author: Zhang Chengsheng, @2019.12.19
+Updated by Zhongshan Cheng @2025.08.25
+Original Author: Zhang Chengsheng, @2019.12.19
 """
 
 import utils
@@ -7,6 +8,7 @@ import math
 
 
 def ss_db_patch(exon_db):
+    """seems not used by the pipeline!"""
     ss_start_db = []
     ss_end_db = []
     for idx in exon_db:

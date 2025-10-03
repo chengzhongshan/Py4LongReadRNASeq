@@ -1,5 +1,9 @@
+#!/bin/env python3
 """
-
+Updated by Zhongshan Cheng
+Note: this script needs to have python module Sam2Bed, which is used at line 176 by the function runSam2Bed
+for short read function runHisat2, correct the following code at line 215 to use short read mode:
+runSam2Bed(samSort, bed, 'long', c['PROCESS'], c['READ_LENGTH'], c['READ_OVERLAP'])
 """
 
 import os,sys,pickle
@@ -209,7 +213,7 @@ def runHisat2(c):
         return bed
     if os.path.exists(samSort):
         print('find hisat2 sorted sam file, use it!')
-        runSam2Bed(samSort, bed, 'long', c['PROCESS'], c['READ_LENGTH'], c['READ_OVERLAP'])
+        runSam2Bed(samSort, bed, 'short', c['PROCESS'], c['READ_LENGTH'], c['READ_OVERLAP'])
         return bed
     cmd1 = '{} -p {} -f --score-min L,0,-0.8 -x {} -U {} -S {}'.format(c['HISAT2'],c['PROCESS'],c['HISAT2_INDEX'],faSplit,sam)
     cmd2 = '{} sort -n -o {} {}'.format(c['SAMTOOLS'],samSort,sam)

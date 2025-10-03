@@ -1,9 +1,13 @@
+#!/bin/env python3
+
 """
 
 """
 
 __BASECONFIG__ = 'https://raw.githubusercontent.com/captorr/TransAnnot/master/TransAnnot.Config'
-__BASELENGTH__ = 31
+__BASELENGTH__ = 34
+#the above variable is used to check the base config file, if you want to add new variable, please change this value
+#ensure the base config file has the same number of variables as this value
 
 import os,sys
 sys.path.append(os.path.dirname(sys.argv[0]))
@@ -34,6 +38,7 @@ def configMake(iArgs):
         exit(1)
     baseConfig = TransAnnot.baseConfig
     if not os.path.exists(baseConfig):
+        print("ERROR: Base config file doesn't exist! Please ensure it exists at {}".format(baseConfig))
         warning()
     config = configRead({},baseConfig,basecheck=1)
     if iArgs.config: config = configRead(config,iArgs.config,basecheck=0)
@@ -110,9 +115,10 @@ def argsCheck(c):
 
 
 def softwareCheck(name,cmd):
+    #os.system("/hpcf/authorized_apps/rhel7_apps/hisat/install/2.2.1/hisat2")
     if not shutil.which(cmd):
         print("ERROR: You choose {} as aligner, but {} is not an environment variable!".format(name,cmd),file=sys.stderr)
-        exit()
+        #exit()
 
 
 def samtoolsCheck(c):

@@ -3,12 +3,14 @@
 ### Ensure this file contain 34 variables!
 
 # input file
-#FASTA=demo_data/fa/fa/759133N.fa
-#FASTA=../Isoseq_Collapse/843157_3264302-Cell8.fasta
-#FASTA=../Isoseq_Collapse/sample3264302_for_TAGET.fasta
-FASTA=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/sample3264302.fasta
-OUTPUT_DIR=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/test3264302
-SAMPLE_UNIQUE_NAME=test3264302
+#FASTA=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/sample3264302.fasta
+#FASTA=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/fa/759133N.fa
+FASTA=/home/zcheng/working_scripts/Py4LongReadRNASeq/m54119_190202_095143.fasta
+#OUTPUT_DIR=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/test3264302
+#OUTPUT_DIR=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/TEST
+OUTPUT_DIR=/home/zcheng/working_scripts/Py4LongReadRNASeq/m54119_190202_095143
+#m54119_190202_095143_UNIQUE_NAME=759133N.fa
+SAMPLE_UNIQUE_NAME=m54119_190202_095143
 PROCESS=16
 
 # genome 
@@ -32,7 +34,8 @@ GMAP=
 GMAP_INDEX=
 
 # optinal
-TPM_LIST=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/sample3264302_for_TAGET.tpm.txt
+#TPM_LIST=/research_jude/rgs01_jude/groups/kennegrp/projects/kennegrp_cab/common/Pacbio_Isoseq/Shaohua_HiFi_Isoseq_New/TAGET/sample3264302_for_TAGET.tpm.txt
+TPM_LIST=/home/zcheng/working_scripts/Py4LongReadRNASeq/m54119_190202_095143_for_TAGET.tpm.txt
 #TPM_LIST=
 READ_LENGTH=100
 READ_OVERLAP=80

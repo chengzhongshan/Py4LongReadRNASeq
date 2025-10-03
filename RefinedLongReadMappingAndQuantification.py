@@ -1,9 +1,10 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Updated by Zhong Chengsheng
-Date: 2023-10-20
+Updated by Zhongshan Cheng
+Date: 2025-08-22
 Description: This script is used to annotate transcripts from long-read RNA-Seq data.
+
 Original Author: Zhang Chengsheng
 """
 
@@ -20,7 +21,7 @@ import BedAnnot
 import gtf2db
 
 
-baseConfig = os.path.join(os.path.dirname(sys.argv[0]),'TransAnnot.Config')
+baseConfig = os.path.join(os.path.dirname(sys.argv[0]),'TransAnnot.Config-m54019_190120_021709')
 
 
 def optinalArgs():
@@ -47,9 +48,10 @@ def optinalArgs():
     p.add_argument("--report", dest="report", metavar="[0/1]", help="Print information when running[0]")
     p.add_argument("-d", dest="help",action='store_true', help="show more detail")
 
-    if len(sys.argv) == 1:
+    if len(sys.argv) == 1 and not os.path.exists(baseConfig):
         p.print_help()
         exit(1)
+        
     return p.parse_args(sys.argv[1:])
 
 
