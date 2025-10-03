@@ -21,7 +21,7 @@ import BedAnnot
 import gtf2db
 
 
-baseConfig = os.path.join(os.path.dirname(sys.argv[0]),'TransAnnot.Config-m54019_190120_021709')
+baseConfig = os.path.join(os.path.dirname(sys.argv[0]),'TransAnnot.Config')
 
 
 def optinalArgs():
