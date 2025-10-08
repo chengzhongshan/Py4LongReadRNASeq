@@ -73,6 +73,13 @@ Both cell lines were obtained from ATCC and cultured as recommended.
 
 These replicate datasets are used to extract per-sample BAMs for downstream analysis.
 
+#### Obtain clustered long-reads based on flnc.bm 
+
+  ```bash
+  conda install bioconda::isoseq3
+  isoseq cluster2 flnc.bam transcripts.bam
+  ```
+
 - Split BAM into per-sample files. Example:
 
   ```bash
