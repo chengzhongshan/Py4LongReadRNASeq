@@ -106,7 +106,7 @@ These replicate datasets are used to extract per-sample BAMs for downstream anal
 
 - Convert BAM to FASTA per sample.
 
-- Generate TPM/CPM tables:
+- Generate CPM tables:
 
   ```bash
   conda activate pacbio
