@@ -81,19 +81,17 @@ These replicate datasets are used to extract per-sample BAMs for downstream anal
   ```
 
 - Split BAM into per-sample files. Example:
-
+  Two files, including $sampleID.fasta and $sampleID.flnc_read_cnt.txt, will be generated for TAGET!
   ```bash
-#Search and extract the reads identified in a certain sample, and generate the subset sam file.
-export sampleID=m54119_190202_095143; 
-samtools view transcripts.bam -h |perl -anE 'if
- (/^\@/){print}else{my @aa=split(",",$F[12]);@aa=grep{/$ENV{sampleID}/}@aa;
-$F[12]=join(",",@aa);
-$F[12]="im:Z:".$F[12] unless ($F[12]=~/^im:Z/ and @aa>0);
-print join("\t",@F),"\n" if @aa>0;}
-' >$sampleID.sam 
-#Convert the sam file to fasta file.
-bash ./PreparePacbioClusteredBAM2TAGET.sh $sampleID.sam $sampleID
-#Two files, including $sampleID.fasta and $sampleID.flnc_read_cnt.txt, will be generated for TAGET!
+  export sampleID=m54119_190202_095143; 
+  samtools view transcripts.bam -h |perl -anE 'if
+  (/^\@/){print}else{my @aa=split(",",$F[12]);
+  @aa=grep{/$ENV{sampleID}/}@aa;
+  $F[12]=join(",",@aa);
+  $F[12]="im:Z:".$F[12] unless ($F[12]=~/^im:Z/ and @aa>0);
+  print join("\t",@F),"\n" if @aa>0;}
+  ' >$sampleID.sam 
+  bash ./PreparePacbioClusteredBAM2TAGET.sh $sampleID.sam $sampleID
   ```
 
 ---
