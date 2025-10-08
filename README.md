@@ -109,7 +109,7 @@ These replicate datasets are used to extract per-sample BAMs for downstream anal
 
   ```bash
   conda activate pacbio
-  python Py4LongReadRNASeq/DetermineExp4ClusteredReads.py -f $sampleID.fasta -o $sampleID\_for_TAGET.cpm.txt
+  python DetermineExp4ClusteredReads.py -f $sampleID.fasta -o $sampleID\_for_TAGET.cpm.txt
   ```
 
 ---
