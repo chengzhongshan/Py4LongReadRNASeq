@@ -62,14 +62,14 @@ Both cell lines were obtained from ATCC and cultured as recommended.
 #### Sample Replicates
 
 - **COLO829T Replicates:**
-  - m54026_190120_000756.subreads
-  - m54119_190202_095143.subreads
-  - m54119_190203_061153.subreads
+  - m54026_190120_000756
+  - m54119_190202_095143
+  - m54119_190203_061153
 
 - **COLO829BL Replicates:**
-  - m54019_190120_021709.subreads
-  - m54119_190131_171128.subreads
-  - m54119_190201_133141.subreads
+  - m54019_190120_021709
+  - m54119_190131_171128
+  - m54119_190201_133141
 
 These replicate datasets are used to extract per-sample BAMs for downstream analysis.
 
