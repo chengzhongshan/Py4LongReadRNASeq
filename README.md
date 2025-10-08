@@ -104,9 +104,8 @@ These replicate datasets are used to extract per-sample BAMs for downstream anal
 
 ## 4. Conversion & CPM Generation
 
-- Convert BAM to FASTA per sample.
 
-- Generate CPM tables:
+- Get read counts of each clsutered transcript and make a CPM table based on previouslly generated $sampleID.fasta:
 
   ```bash
   conda activate pacbio
