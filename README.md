@@ -50,6 +50,29 @@ This repository documents the steps for running a long-read RNA-Seq analysis pip
   wget https://downloads.pacbcloud.com/public/dataset/Melanoma2019_IsoSeq/FullLengthReads/flnc.bam
   ```
 
+### Sample Information for flnc.bam
+
+The `flnc.bam` file contains long-read sequencing data from three biological replicates of each of the following cell lines:
+
+- **COLO829T** (melanoma cell line, [ATCC CRL-1974](http://www.lgcstandards-atcc.org/products/all/CRL-1974))
+- **COLO829BL** (peripheral blood cell line, [ATCC CRL-1980](http://www.lgcstandards-atcc.org/products/all/CRL-1980))
+
+Both cell lines were obtained from ATCC and cultured as recommended.
+
+#### Sample Replicates
+
+- **COLO829T Replicates:**
+  - m54026_190120_000756.subreads
+  - m54119_190202_095143.subreads
+  - m54119_190203_061153.subreads
+
+- **COLO829BL Replicates:**
+  - m54019_190120_021709.subreads
+  - m54119_190131_171128.subreads
+  - m54119_190201_133141.subreads
+
+These replicate datasets are used to extract per-sample BAMs for downstream analysis.
+
 - Split BAM into per-sample files. Example:
 
   ```bash
