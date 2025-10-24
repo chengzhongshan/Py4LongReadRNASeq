@@ -11,7 +11,7 @@ Zhongshan Cheng1, Jia-Hua “George” Qu2, Nick Peterson3, Meghan Carr4
 
 ## Video instruction
 
-A walkthrough / demo of this pipeline is available on YouTube:
+A walkthrough of this pipeline is available on YouTube:
 
 https://www.youtube.com/watch?v=H6t6Do3_RoM
 
