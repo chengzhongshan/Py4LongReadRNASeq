@@ -104,7 +104,7 @@ These replicate datasets are used to extract per-sample BAMs for downstream anal
 
 ## 3. Reference Genome
 
-- Download hg38 reference and annotation (GENCODE or Ensembl).
+- Download hg38 reference and annotation (GENCODE or Ensembl). You can download from  https://zenodo.org/records/10091914.
 
 ---
 
