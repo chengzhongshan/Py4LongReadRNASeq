@@ -1,10 +1,10 @@
 #!/bin/env python3
 
 """
-
+Updated by Zhongshan Cheng Dec-02-2025;
 """
 
-__BASECONFIG__ = 'https://raw.githubusercontent.com/captorr/TransAnnot/master/TransAnnot.Config'
+__BASECONFIG__ = 'https://raw.githubusercontent.com/chengzhongshan/Py4LongReadRNASeq/refs/heads/main/TransAnnot.Config'
 __BASELENGTH__ = 34
 #the above variable is used to check the base config file, if you want to add new variable, please change this value
 #ensure the base config file has the same number of variables as this value
@@ -38,8 +38,10 @@ def configMake(iArgs):
         exit(1)
     baseConfig = TransAnnot.baseConfig
     if not os.path.exists(baseConfig):
-        print("ERROR: Base config file doesn't exist! Please ensure it exists at {}".format(baseConfig))
-        warning()
+        print("Warning: Base config file doesn't exist! The pipeline needs to have it for checking input parameters and software at {}".format(baseConfig))
+        print("We will download it using wget from github:\nwget {}".format(__BASECONFIG__))
+        os.system("wget {}".format(__BASECONFIG__))
+        #warning()
     config = configRead({},baseConfig,basecheck=1)
     if iArgs.config: config = configRead(config,iArgs.config,basecheck=0)
     if iArgs.minimap2: config['USE_MINIMAP2'] = iArgs.minimap2
@@ -140,10 +142,10 @@ def fileCheck(name,path,basedir=0):
 
 
 def warning():
-    print("ERROR: Invalid base config file !",file=sys.stderr)
+    print("ERROR: Invalid config file !",file=sys.stderr)
     print("================================")
-    print("Please make sure the base config file is the latest complete version and fit to your software !")
-    print("You can download latest base config file by command:\n\twget {}".format(__BASECONFIG__))
+    print("Please make sure the config file is the latest complete version and fit to your software !")
+    print("You can download latest base config file by the following command, and then modify and rename it:\nwget {}".format(__BASECONFIG__))
     print("================================")
     exit()
 
