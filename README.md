@@ -6,7 +6,7 @@ Zhongshan Cheng1, Jia-Hua “George” Qu2, Nick Peterson2, Zehui Yu3, Meghan Ca
 **Affiliations:**
 1. Center for Applied Bioinformatics, St. Jude Children’s Research Hospital
 2. Host-Microbe Interactions, St. Jude Children’s Research Hospital
-3. Pharmacy & Pharmaceutical Sciences, St. Jude Graduate School
+3. Pharmacy & Pharmaceutical Sciences, St. Jude Children’s Research Hospital
 4. Student, CodeCrew Coding School
 
 ## Video instruction
