@@ -1,12 +1,12 @@
 # PacBio Iso-Seq and TAGET Analysis Pipeline
 
 **Authors:**
-Zhongshan Cheng1, Jia-Hua “George” Qu2, Nick Peterson3, Meghan Carr4
+Zhongshan Cheng1, Jia-Hua “George” Qu2, Nick Peterson2, Zehui Yu3, Meghan Carr4
 
 **Affiliations:**
 1. Center for Applied Bioinformatics, St. Jude Children’s Research Hospital
 2. Host-Microbe Interactions, St. Jude Children’s Research Hospital
-3. Host-Microbe Interactions, St. Jude Graduate School (Ph.D. track)
+3. Pharmacy & Pharmaceutical Sciences, St. Jude Graduate School
 4. Student, CodeCrew Coding School
 
 ## Video instruction
